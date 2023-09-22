@@ -14893,6 +14893,7 @@ __metadata:
     release-it: ^15.0.0
     typescript: ^5.0.2
   peerDependencies:
+    "@shopify/react-native-skia": ^0.1.203
     react: 18.2.0
     react-native: 0.72.4
   languageName: unknown
