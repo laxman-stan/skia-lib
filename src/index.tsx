@@ -10,10 +10,6 @@ import {
 import React from 'react';
 import { type ReactNode } from 'react';
 
-export function multiply(a: number, b: number): Promise<number> {
-  return Promise.resolve(a * b);
-}
-
 type Props = SkiaProps<RectProps> &
   Omit<SkiaProps<ImageProps>, 'image'> & {
     image: string;
